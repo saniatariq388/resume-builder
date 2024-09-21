@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;color: white;
+}
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.10),rgba(0,0,0,0.5)),url(drops.webp);
+    background-repeat: no-repeat;
+    background-size:cover; 
+    flex-direction: column;
+    display:flex ;
+    justify-content: center;
+    padding-top: 80px;
+    text-align: center;
+
+}
+
+.headingStyle{
+    width: 90%;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.myHeading{
+    font-size: 60px;
+    text-decoration: underline;
+    text-shadow: 0 2px 6px black;
+    margin-bottom: 20px;
+
+}
+
+.mt40{
+    font-size: 40px;
+
+}
+
+.mb40{
+    margin-bottom: 80px;
+    margin-top: 60px;
+
+}
+
+    
+
+#header h2{
+    font-size: 40px;
+}
+
+#main{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 40px;
+    gap: 40px;
+   
+}
+
+.p40{
+    padding: 40px;
+    background-color: transparent;
+    
+}
+
+.round{
+    border-radius: 50px;
+}
+
+.anchor{
+    display: block;
+    font-size: 35px;
+    text-decoration: none;
+    text-shadow: 0 2px 3px white;
+    margin-bottom: 20px;
+}
+
+.para{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.zoom{
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.zoom:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+footer p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.border{
+   
+    border-radius: 40px;
+}
+
+
+ /* responsive design */
+@media (max-width: 768px){
+    #mainDiv,  #btnDiv{
+        width: 100%;
+    }
+}

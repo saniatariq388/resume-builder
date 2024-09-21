@@ -1,0 +1,173 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #242222;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  #mainDiv {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #89ccdd;
+    margin-bottom: 30px;
+    filter: drop-shadow(5px 8px 8px rgba(19, 18, 18, 0.411));
+  }
+  
+  img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.7);
+    object-fit: cover;
+    margin-right: 30px;
+  }
+  
+  .personal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .personal h1 {
+    font-size: 40px;
+    color: #161515;
+  }
+  
+  .personal h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #161515;
+    margin-left: 7px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #d6c7d2;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .contact-info .para {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .heading {
+    font-size: 24px;
+    color: #161515;
+    padding: 10px;
+    background-color:#d6c7d2;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .contPara {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  #skillSec ul {
+    margin-left: 25px;
+    margin-top: 5px;
+  }
+  
+  #btnDiv {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(224, 120, 182);
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px black);
+  }
+  
+  .btn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #222121;
+    filter: drop-shadow(5px 4px 4px black);
+    
+  }
+  
+  .btn:hover {
+    background-color: #2647b3;
+    color: white;
+  }
+
+  .btn:active{
+    transform: scale(1);
+  }
+  li{
+    margin-bottom: 4px;
+  }
+    
+  h3{
+    margin-bottom: 5px;
+  }
+  
+  .sp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #mainDiv, #btnDiv {
+      width: 100%;
+    }
+  
+    .personal {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    img {
+      margin-top: 20px;
+    }
+  
+    .contact-info {
+      flex-direction: column;
+    }
+  
+    .btn {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  
+  #objectiveSec{
+    display: block;
+  }
+  
+  #eduSec{
+    display: block;
+  }
+  
+  #skillSec{
+    display: block;
+  }
+  
+  #workExpSec{
+    display: block;
+  }
