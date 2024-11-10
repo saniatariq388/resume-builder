@@ -13,7 +13,9 @@ body{
     flex-direction: column;
     display:flex ;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 5px;
+    padding-left: 90px;
+    padding-right: 90px;
     text-align: center;
 
 }
@@ -22,7 +24,11 @@ body{
     width: 90%;
     border: 1px solid;
     border-radius: 10px;
-    margin: auto;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    top:0;
     padding: 20px;
 
 }
@@ -53,8 +59,6 @@ body{
 }
 
 #main{
-    margin-left: 5%;
-    margin-right: 5%;
     text-align: center;
     display:flex ;
     justify-content: space-between;
@@ -63,30 +67,40 @@ body{
     padding-right: 5%;
     margin-top: 40px;
     gap: 40px;
-   
+    order: none;
 }
 
 .p40{
     padding: 40px;
-    background-color: transparent;
     
 }
 
 .round{
     border-radius: 50px;
+    background-color: rgba(255,255,255,0.2);
+    border:1px solid rgba(255,255,255,0.2);
+    box-shadow: inset 0 0 5px;
+    height: 400px;
 }
 
 .anchor{
     display: block;
-    font-size: 35px;
+    font-size: 45px;
+    font-weight: 600;
     text-decoration: none;
-    text-shadow: 0 2px 3px white;
-    margin-bottom: 20px;
+    text-shadow: 0 2px 3px rgb(46, 43, 43);
+    margin-top: 20px;
+
+   
 }
 
 .para{
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 80px;
+}
+
+.anchor & .para:hover{
+    display: none;
 }
 
 .zoom{
@@ -97,17 +111,21 @@ body{
 .zoom:hover{
     transform: scale(1.02);
     cursor: pointer;
+    background-image:url(profile-resume-pic.jpg) ;
+    background-position:center;
+    background-repeat: no-repeat;
 }
 footer p{
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 400;
+
 }
 
 .border{
    
-    border-radius: 40px;
+
 }
 
 
