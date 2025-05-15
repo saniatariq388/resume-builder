@@ -19,7 +19,7 @@ const profilePic = document.getElementById('profilePic') as HTMLInputElement;
 
 
 const form = document.getElementById('resumeForm') as HTMLFormElement;
-form.addEventListener('submit', (e) => {
+form?.addEventListener('submit', (e) => {
   e.preventDefault();
 
   localStorage.setItem('form_name', nameInput.value);
@@ -51,5 +51,6 @@ form.addEventListener('submit', (e) => {
       window.location.href = '../Preveiw_Resume/Dynamic_Resume.html';
     }
     
+    console.log(localStorage.getItem('form_profilePic'));
     
 });
