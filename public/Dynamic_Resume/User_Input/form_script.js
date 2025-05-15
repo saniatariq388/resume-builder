@@ -1,3 +1,5 @@
+// resume-builder\Dynamic_Resume\User_Input\form_script.js
+
 "use strict";
 const nameInput = document.getElementById('name');
 const jobTitle = document.getElementById('jobTitle');
